@@ -67,7 +67,7 @@ explanation below):
           <strong>else</strong> Xi </td></tr>
 </table>
 <p>
-<strong>Two</strong> variables out of p, d, h, or u, as well as the
+<strong>Two</strong> variables out of p, d, h, s, or u, as well as the
 <strong>mass fractions</strong> Xi are the <strong>independent</strong> variables and the
 medium model basically provides equations to compute
 the remaining variables, including the full mass fraction vector X
