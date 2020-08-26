@@ -89,6 +89,7 @@ Temperature T (= " + String(T) + " K) is not in the allowed range
             Modelica.Media.IdealGases.Common.Functions.referenceChoice,
             Modelica.Media.IdealGases.Common.Functions.h_offset);
     u = h - R_s*T;
+    s = Modelica.Media.IdealGases.Common.Functions.s0_T(data, T) - data.R_s*Modelica.Math.log(state.p/reference_p);
 
     // Has to be written in the form d=f(p,T) in order that static
     // state selection for p and T is possible
